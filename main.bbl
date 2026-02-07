@@ -1,0 +1,176 @@
+\begin{thebibliography}{30}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Knuth(1986)]{knuth86a}
+Knuth D~E.
+\newblock Computers and typesetting: the {\TeX}book\allowbreak[M].
+\newblock Reading, MA, USA: Addison-Wesley, 1986.
+
+\bibitem[Mittelbach et~al.(2004)Mittelbach, Goossens, Braams, and Carlisle]{tlc2}
+Mittelbach F, Goossens M, Braams J, et~al.
+\newblock The {\LaTeX} companion\allowbreak[M].
+\newblock 2nd ed.
+\newblock Reading, MA, USA: Addison-Wesley, 2004.
+
+\bibitem[Knuth(1984)]{knuth84}
+Knuth D~E.
+\newblock Literate programming\allowbreak[J].
+\newblock The Computer Journal, 1984, 27\allowbreak (2): 97-111.
+
+\bibitem[Lamport(1994)]{lamport94}
+Lamport L.
+\newblock {\LaTeX}: a document preparation system\allowbreak[M].
+\newblock 2nd ed.
+\newblock Reading, MA, USA: Addison-Wesley, 1994.
+
+\bibitem[孙立广(2016)]{sunliguang2016jidi}
+孙立广.
+\newblock 极地科学前沿与热点：顶级期刊论文摘要汇编（1999—2010）\allowbreak[M].
+\newblock 合肥: 中国科学技术大学出版社, 2016: 222.
+
+\bibitem[李永池(2016)]{liyongchi2016zhangliang}
+李永池.
+\newblock 张量初步和近代连续介质力学概论\allowbreak[M].
+\newblock 2 版.
+\newblock 合肥: 中国科学技术大学出版社, 2016: 61.
+
+\bibitem[刘景双(2014)]{liujingshuang2014shidi}
+刘景双.
+\newblock 湿地生态系统碳、氮、硫、磷生物地球化学过程\allowbreak[M].
+\newblock 合肥: 中国科学技术大学出版社, 2014.
+
+\bibitem[Crawford et~al.(1995)Crawford and Gorman]{crawford1995future}
+Crawford W, Gorman M.
+\newblock Future libraries: dreams, madness, \& reality\allowbreak[M].
+\newblock Chicago: American Library Association, 1995.
+
+\bibitem[{International Federation of Library Association and Institutions}(1977)]{ifla1977names}
+{International Federation of Library Association and Institutions}.
+\newblock Names of persons: national usage for entry in catalogues\allowbreak[M].
+\newblock 3rd ed.
+\newblock London: IFLA Internation Office for UBC, 1977.
+
+\bibitem[程根伟(1999)]{chenggenwei1999hongshui}
+程根伟.
+\newblock 1998年长江洪水的成因与减灾对策\allowbreak[M]//\allowbreak
+许厚泽, 赵其国.
+\newblock 长江流域洪涝灾害与科技对策.
+\newblock 北京: 科学出版社, 1999: 26-32.
+
+\bibitem[陈晋镳\ 等(1980)陈晋镳, 张惠民, 朱士兴, 赵震, and 王振刚]{chenjinbiao1980jixian}
+陈晋镳, 张惠民, 朱士兴, 等.
+\newblock 蓟县震旦亚界研究\allowbreak[M]//\allowbreak
+中国地质科学院天津地质矿产研究所.
+\newblock 中国震旦亚界.
+\newblock 天津: 天津科学技术出版社, 1980: 56-114.
+
+\bibitem[Buseck et~al.(1980)Buseck, Nord, and Veblen]{buseck2018subsolidus}
+Buseck P~R, Nord G~L, Jr., Veblen D~R.
+\newblock Subsolidus phenomena in pyroxenes\allowbreak[M]//\allowbreak
+Prewitt C~T.
+\newblock Pyroxenes.
+\newblock Washington, D.C.: Mineralogical Society of America, 1980: 117-212.
+
+\bibitem[Fourney(1971)]{fourney1971advances}
+Fourney M~E.
+\newblock Advances in holographic photoelasticity\allowbreak[C]//\allowbreak
+American Society of Mechanical Engineers．Applied Mechanics Division．Symposium on Applications of Holography in Mechanics, August 23-25,1971,University of Southern California, Los Angeles, California.
+\newblock New York: ASME, 1971: 17-38.
+
+\bibitem[孔庆勇\ 等(2015)孔庆勇, 郭红健, and 孔庆和]{kongqingyong2015keji}
+孔庆勇, 郭红健, 孔庆和.
+\newblock 我国科技期刊的金字塔分层模型及发展路径初探\allowbreak[J].
+\newblock 中国科技期刊研究, 2015, 26\allowbreak (10): 1100-1103.
+
+\bibitem[杨洪升(2013)]{yanghongsheng2013siku}
+杨洪升.
+\newblock 四库馆私家抄校书考略\allowbreak[J].
+\newblock 文献, 2013\allowbreak (1): 56-75.
+
+\bibitem[于潇\ 等(2012)于潇, 刘义, 柴跃廷, et~al.]{yuxiao2012hulianwang}
+于潇, 刘义, 柴跃廷, 等.
+\newblock 互联网药品可信交易环境中主体资质审核备案模式\allowbreak[J].
+\newblock 清华大学学报(自然科学版), 2012, 52\allowbreak (11): 1518-1521.
+
+\bibitem[Des~Marais et~al.(1992)Des~Marais, Strauss, Summons, et~al.]{desmarais1992carbon}
+Des~Marais D~J, Strauss H, Summons R~E, et~al.
+\newblock Carbon isotope evidence for the stepwise oxidation of the proterozoic environment\allowbreak[J].
+\newblock Nature, 1992, 359: 605-609.
+
+\bibitem[HEWITT(1984)]{hewitt1984technical}
+HEWITT J~A.
+\newblock Technical services in 1983\allowbreak[J].
+\newblock Library Resource Services, 1984.
+
+\bibitem[丁文详(2000)]{dingwenxiang2000shuzi}
+丁文详.
+\newblock 数字革命与竞争国际化\allowbreak[N].
+\newblock 中国青年报, 2000-11-20\allowbreak (15).
+
+\bibitem[姜锡洲(1989)]{jiangxizhou1989waifu}
+姜锡洲.
+\newblock 一种温热外敷药制备方案: 88105607.3\allowbreak[P].
+\newblock 1989-07-26.
+
+\bibitem[万锦坤(1996)]{wanjinkun1996wenzhai}
+万锦坤.
+\newblock 中国大学学报论文文摘（1983--1993）（英文版）\allowbreak[DB/CD].
+\newblock 北京: 中国大百科全书出版社, 1996.
+
+\bibitem[Mlot(1998)]{christine1998plant}
+Mlot C.
+\newblock Plant physiology: plant biology in the {Genome Era}\allowbreak[J].
+\newblock Science, 1998, 281: 331-332.
+
+\bibitem[孙玉文(2000)]{sunyuwen2000hanyu}
+孙玉文.
+\newblock 汉语变调构词研究\allowbreak[D].
+\newblock 北京: 北京大学, 2000.
+
+\bibitem[Cairns(1965)]{cairns1965infrared}
+Cairns B~R.
+\newblock Infrared spectroscopic studies of solid oxygen\allowbreak[D].
+\newblock Berkeley: Univ. of California, 1965.
+
+\bibitem[中国力学学会(1990)]{lixuexuehui1990lunwenji}
+中国力学学会.
+\newblock 第 3 届全国实验流体力学学术会议论文集\allowbreak[C].
+\newblock 天津, 1990.
+
+\bibitem[Rosenthall(1963)]{rosenthall1963mathematical}
+Rosenthall E~M.
+\newblock Proceedings of the {Fifth Canadian Mathematical Congress}, {University of Montreal}, 1961\allowbreak[C].
+\newblock Toronto: University of Toronto Press, 1963.
+
+\bibitem[Baker et~al.(1995)Baker and Jackson]{baker1995future}
+Baker S~K, Jackson M~E.
+\newblock The future of resource sharing\allowbreak[M].
+\newblock New York: The Haworth Press, 1995.
+
+\bibitem[尼葛洛庞帝(1996)]{nigeluopangdi1996shuzi}
+尼葛洛庞帝.
+\newblock 数字化生存\allowbreak[M].
+\newblock 胡泳, 范海燕, 译.
+\newblock 海口: 海南出版社, 1996.
+
+\bibitem[杨宗英(1996)]{yangzongying1996dianzi}
+杨宗英.
+\newblock 电子图书馆的现实模型\allowbreak[J].
+\newblock 中国图书馆学报, 1996\allowbreak (2): 24-29.
+
+\bibitem[刘斌(2014)]{liubin2014lixue}
+刘斌.
+\newblock 力学\allowbreak[M].
+\newblock 合肥, 2014: 24-29.
+
+\end{thebibliography}

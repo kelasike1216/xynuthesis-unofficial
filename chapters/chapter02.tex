@@ -1,0 +1,137 @@
+% !TeX root = ../main.tex
+
+\chapter{插图和表格}
+
+\section{表格}
+
+《论文规范》没有要求具体表格形式。但表格应具备自明性。为保持版面简洁易读，建议优先采用三线表，示例如表~\ref{tab:exampletable}所示。
+
+\begin{table}
+  \centering
+  \bicaption{表号和表题在表的正上方}{The English caption}
+  \label{tab:exampletable}
+  \begin{tabular}{cl}
+    \toprule
+    类型   & 描述                                       \\
+    \midrule
+    挂线表 & 挂线表也称系统表、组织表，用于表现系统结构 \\
+    无线表 & 无线表一般用于设备配置单、技术参数列表等   \\
+    卡线表 & 卡线表有完全表，不完全表和三线表三种       \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+如果有表注，推荐使用 \pkg{threeparttable}。这样可以与表格对齐，满足部分评审老师的要求。
+
+\begin{table}
+  \centering
+  \begin{threeparttable}
+    \caption{带表注的表格}
+    \label{tab:tablewithnotes}
+    \begin{tabular}{cl}
+      \toprule
+      类型   & 描述                                       \\
+      \midrule
+      挂线表\tnote{a} & 挂线表也称系统表、组织表，用于表现系统结构 \\
+      无线表\tnote{b} & 无线表一般用于设备配置单、技术参数列表等   \\
+      卡线表 & 卡线表有完全表，不完全表和三线表三种       \\
+      \bottomrule
+    \end{tabular}
+    \begin{tablenotes}[flushleft]
+      \item[a] 注：
+      \item[b] 注：
+    \end{tablenotes}
+  \end{threeparttable}
+\end{table}
+
+如某个表需要转页接排，可以使用 \pkg{longtable} 宏包，需要在随后的各页上重复表的编号。
+编号后跟表题（可省略）和“（续）”，置于表上方。续表均应重复表头。
+
+\begin{longtable}{cccc}
+    \caption{跨页长表格的表题}
+    \label{tab:longtable} \\
+    \toprule
+    表头 1 & 表头 2 & 表头 3 & 表头 4 \\
+    \midrule
+  \endfirsthead
+    \caption*{续表~\thetable\quad 跨页长表格的表题} \\
+    \toprule
+    表头 1 & 表头 2 & 表头 3 & 表头 4 \\
+    \midrule
+  \endhead
+    \bottomrule
+  \endfoot
+  Row 1  & & & \\
+  Row 2  & & & \\
+\end{longtable}
+
+
+\section{插图}
+
+建议矢量图片使用 PDF 格式，比如数据可视化的绘图；
+照片应使用 JPG 格式；
+其他的栅格图应使用无损的 PNG 格式。
+% \begin{figure}[ht]
+%   \centering
+%   \includegraphics[width=0.3\textwidth]{xynu-badge.pdf}
+%   \bicaption{图号、图题置于图的下方}{The English caption}
+%   \label{fig:badge}
+%   \figurenote{若有图注，图注置于图题下方。
+%   }
+% \end{figure}
+% 如果只需要中文标题，可以使用下面的方式。
+ \begin{figure}[ht]
+   \centering
+   \includegraphics[width=0.3\textwidth]{xynu-badge.pdf}
+   % 修改点：用 \caption 替换 \bicaption，只写中文标题
+   \caption{图号、图题置于图的下方} 
+   \label{fig:badge}
+ \end{figure}
+
+如果一个图由两个或两个以上分图组成时，各分图分别以 (a)、(b)、(c)...... 作为图序，并须有分图题。
+推荐使用 \pkg{subcaption} 宏包来处理， 比如图~\ref{fig:subfig-a} 和图~\ref{fig:subfig-b}。
+第 4 页剩下的空间不够放下那个大的“分图A+分图B”了。为了不让第 4 页下面留出一大片难看的空白，LaTeX 自动把这张图“漂浮”到了下一页（第 5 页）的顶部。同时，它把后面的文字（2.3 节的标题和内容）提上来填补了第 4 页的空间。
+如果你希望图片”钉在代码所在的位置，使用 [H] 参数。
+%即将 &\begin{figure}& 改为 \begin{figure}[H]。
+\begin{figure}[H]
+  \centering
+  \subcaptionbox{分图 A\label{fig:subfig-a}}
+    {\includegraphics[width=0.35\linewidth]{example-image-a.pdf}}
+  \subcaptionbox{分图 B\label{fig:subfig-b}}
+    {\includegraphics[width=0.35\linewidth]{example-image-b.pdf}}
+  \caption{多个分图的示例}
+  \label{fig:multi-image}
+\end{figure}
+
+
+\section{算法环境}
+
+模板中使用 \pkg{algorithm2e} 宏包实现算法环境。关于该宏包的具体用法，
+请阅读宏包的官方文档。
+
+\begin{algorithm}[H] % 使用 [H] 强制固定位置
+  \SetAlgoLined
+  \SetKwInOut{KwIn}{输入}
+  \SetKwInOut{KwOut}{输出}
+
+  \caption{随机梯度下降算法 (SGD)}
+  \label{algo:sgd}
+
+  \KwIn{训练数据集 $D$, 学习率 $\eta$, 最大迭代次数 $T$}
+  \KwOut{最优模型参数 $\theta^*$}
+
+  随机初始化参数 $\theta_0$\;
+  $t \leftarrow 0$\;
+  
+  \While{$t < T$ 且未收敛}{
+    从 $D$ 中随机采样一个小批量样本 $B$\;
+    计算梯度: $g_t \leftarrow \nabla_\theta \mathcal{L}(\theta_t; B)$\;
+    更新参数: $\theta_{t+1} \leftarrow \theta_t - \eta \cdot g_t$\;
+    $t \leftarrow t + 1$\;
+  }
+  
+  $\theta^* \leftarrow \theta_t$\;
+  \Return $\theta^*$
+\end{algorithm}
+
+不建议插入大段代码，大段代码会打断阅读的连贯性。这些内容占版面却不提供核心信息。如果非要贴，建议用 \pkg{listings}  宏包

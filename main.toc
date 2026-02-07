@@ -1,0 +1,26 @@
+\contentsline {chapter}{摘\hskip 1em\relax 要}{I}{chapter*.5}%
+\contentsline {chapter}{Abstract}{II}{chapter*.7}%
+\contentsline {chapter}{\numberline {第1章}简介}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}一级节标题：介绍}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}二级节标题：排版测试}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}三级节标题：中文排版}{1}{subsubsection.1.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}三级节标题：英文排版}{2}{subsubsection.1.1.1.2}%
+\contentsline {section}{\numberline {1.2}脚注}{3}{section.1.2}%
+\contentsline {chapter}{\numberline {第2章}插图和表格}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}表格}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}插图}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}算法环境}{6}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章}数学符号和公式}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}数学符号}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}数学公式}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}量和单位}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}定理和证明}{8}{section.3.4}%
+\contentsline {chapter}{\numberline {第4章}引用文献的标注}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}顺序编码制}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}著者-出版年制}{11}{section.4.2}%
+\contentsline {chapter}{参考文献}{12}{chapter*.17}%
+\contentsline {chapter}{\numberline {附录 A}}{14}{appendix.A}%
+\contentsline {section}{\numberline {A.1}补充章节}{14}{section.A.1}%
+\contentsline {chapter}{致谢}{15}{appendix*.18}%
+\contentsline {chapter}{攻读学位期间获得与学位论文相关的科研成果目录}{16}{appendix*.19}%
+\contentsfinish 

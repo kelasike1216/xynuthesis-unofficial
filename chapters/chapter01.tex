@@ -1,0 +1,44 @@
+% !TeX root = ../main.tex
+
+\chapter{简介}
+
+\section{一级节标题：介绍}
+
+本模板\pkg{xynuthesis} 基于中国科学技术大学学位论文 LaTeX 模板（ustcthesis v4.0.0-beta.10）与清华大学学位论文 LaTeX 模板（ThuThesis）修改而成，
+并依据《信阳师范学院研究生学位论文规范（2021年2月）》
+2026年还在使用这一规范，以下简称《论文规范》）及论文示例（适用于专业硕士）的排版需求进行了专门适配。
+
+
+由于官方提供的论文示例模板与《论文规范》描述并不一致，且《论文规范》中部分要求较为模糊，
+因此在实现过程中参考了多个硕士毕业论文的格式并与《论文规范》和论文示例结合进行调整与取舍。
+
+
+本模板适用于信阳师范大学专业硕士学位论文的撰写；学术硕士学位论文的撰写请参照《论文规范》及论文示例（适用于学术型硕士）。
+
+本模板为非官方模板，并非学校或学院发布的正式 LaTeX 模板，无法保证与学校后续更新的排版规范完全同步。使用者应以《论文规范》及学院/研究生院的最新要求为准，并自行核对。
+
+此外，本模板中的中英文封面与学位论文原创性声明页等内容，由于学校官方并没有提供明确的布局排版格式，所以本模板是参考学校提供的Word 示例，
+在反复对照与逐步修改中实现版式逼近；因此其目标主要是视觉效果上的相似，在细节方面可能仍与 Word 版式存在差异。
+
+\subsection{二级节标题：排版测试}
+测试 XYNU Thesis LaTeX 模板的排版效果（比如检查字体、行距、页边距是否正常），
+在 LaTeX 中不需要手动复制粘贴文字，
+可以使用宏包自动生成。
+测试英文排版（使用 lipsum 宏包）
+测试中文排版（使用 zhlipsum 宏包）
+\subsubsection{三级节标题：中文排版}
+
+% 生成第 1 到第 3 段中文假文
+\zhlipsum[1-2]
+
+\subsubsection{三级节标题：英文排版}
+% 生成第 1 到第 2 段英文假文
+\lipsum[1-2]
+
+\section{脚注}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.\footnote{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  eu fugiat nulla pariatur.}

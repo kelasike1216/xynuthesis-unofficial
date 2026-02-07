@@ -1,0 +1,46 @@
+% !TeX encoding = UTF-8
+% !TeX program = xelatex
+% !TeX spellcheck = en_US
+
+\documentclass[degree=master,degree-type=professional]{xynuthesis}
+% degree      = doctor | master | bachelor
+% degree-type = academic | professional | engineering
+% language    = chinese | english
+% fontset     = windows | mac | ubuntu | fandol
+
+% 加载宏包、全部的配置
+\input{xynusetup}
+
+
+
+\begin{document}
+
+\maketitle
+\copyrightpage
+
+\frontmatter
+\include{chapters/abstract}
+\tableofcontents
+% \listoffigures
+% \listoftables
+% \listoffiguresandtables
+ \include{chapters/notation}
+
+\mainmatter
+\include{chapters/chapter01}
+\include{chapters/chapter02}
+\include{chapters/chapter03}
+\include{chapters/citations}
+
+ \bibliography{bib/xynu.bib}  % 参考文献使用 BibTeX 编译
+% \printbibliography       % 参考文献使用 BibLaTeX 编译
+%\input{xynuthesis-example.bbl} % 直接使用示例 .bbl参考文献来源
+
+\appendix
+\include{chapters/complementary}
+
+\backmatter
+\include{chapters/acknowledgements}
+\include{chapters/achievements}
+
+\end{document}
